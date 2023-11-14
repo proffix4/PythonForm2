@@ -29,8 +29,8 @@
    <widget class="QPushButton" name="btn_exit">
     <property name="geometry">
      <rect>
-      <x>90</x>
-      <y>260</y>
+      <x>50</x>
+      <y>240</y>
       <width>120</width>
       <height>50</height>
      </rect>
@@ -69,8 +69,8 @@
    <widget class="QPushButton" name="btn_next">
     <property name="geometry">
      <rect>
-      <x>231</x>
-      <y>260</y>
+      <x>260</x>
+      <y>240</y>
       <width>120</width>
       <height>50</height>
      </rect>
@@ -81,7 +81,7 @@
      </font>
     </property>
     <property name="text">
-     <string>Начать</string>
+     <string>Войти</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_welcome_2">
@@ -104,6 +104,47 @@
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>130</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>110</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Кто вы?</string>
     </property>
    </widget>
   </widget>

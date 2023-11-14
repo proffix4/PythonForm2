@@ -25,10 +25,8 @@ class Form1(QtWidgets.QMainWindow):
     # Метод-обработчик для перехода на следующую форму
     def next(self):
         global data_forms  # Указываем, что переменная "data_forms" глобальная
-
-        # Запоминаем в глобальной переменной значение из метки "label_welcome_2"
-        data_forms = QtGui.QTextDocument(self.label_welcome_2.text()).toPlainText()
-
+        # Запоминаем в глобальной переменной значение из поля ввода
+        data_forms = QtGui.QTextDocument(self.lineEdit.text()).toPlainText()
         self.signal_emit.emit('form2show')  # Посылаем сигнал
 
 
